@@ -32,7 +32,7 @@ export function Home() {
                         Serviços completos para redes sociais, incluindo: Organização e otimização do perfil, criação de conteúdos estratégicos
                         para engajamento e vendas, análise de desempenho e ajustes para melhores resultados.
                     </p>
-                    <ButtonBorder>Quero saber mais</ButtonBorder>
+                    <ButtonBorder>Saiba mais</ButtonBorder>
                 </Title>
                 <img src={imgTwo} />
                 <Title>
@@ -43,7 +43,7 @@ export function Home() {
                         Conteúdos visuais e narrativas envolventes para destacar sua marca. Perfeito para quem busca vídeos criativos que aumentam o
                         engajamento,Storytelling que conecta com a audiência, fotos profissionais que valorizam sua identidade visual.
                     </p>
-                    <ButtonBorder>Quero saber mais</ButtonBorder>
+                    <ButtonBorder>Saiba mais</ButtonBorder>
                 </Title>
             </SectionTwo>
             <SectionThree>
