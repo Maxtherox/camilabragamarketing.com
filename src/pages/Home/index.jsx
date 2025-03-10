@@ -1,5 +1,6 @@
-import { Container, SectionOne, Branding, Title, ButtonBorder, SectionTwo } from "./styles";
+import { Container, SectionOne, Branding, Title, ButtonBorder, SectionTwo, SectionThree } from "./styles";
 import imgOne from "../../assets/img1.png"
+import imgThree from "../../assets/img2.png"
 import imgTwo from "../../assets/Vector.png"
 
 export function Home(){
@@ -24,9 +25,9 @@ export function Home(){
 
             <SectionTwo>
             <Title>
-                    <h1>
+                    <h2>
                     Criação, Estratégia e Gestão de Redes Sociais
-                    </h1>
+                    </h2>
                     <p>
                     Serviços completos para redes sociais, incluindo: Organização e otimização do perfil, criação de conteúdos estratégicos
                     para engajamento e vendas, análise de desempenho e ajustes para melhores resultados.                
@@ -35,9 +36,9 @@ export function Home(){
                 </Title>
                 <img src={imgTwo}/>
             <Title>
-                    <h1>
+                    <h2>
                     Videomake, Fotos e Storytelling
-                    </h1>
+                    </h2>
                     <p>
                     Conteúdos visuais e narrativas envolventes para destacar sua marca. Perfeito para quem busca vídeos criativos que aumentam o
                      engajamento,Storytelling que conecta com a audiência, fotos profissionais que valorizam sua identidade visual.
@@ -45,7 +46,19 @@ export function Home(){
                     <ButtonBorder>Quero saber mais</ButtonBorder>
                 </Title>
             </SectionTwo>
-           
+           <SectionThree>
+            <img src={imgThree} />
+            <Title>
+                    <h2>
+                    Videomake, Fotos e Storytelling
+                    </h2>
+                    <p>
+                    Conteúdos visuais e narrativas envolventes para destacar sua marca. Perfeito para quem busca vídeos criativos que aumentam o
+                     engajamento,Storytelling que conecta com a audiência, fotos profissionais que valorizam sua identidade visual.
+                    </p>
+                    <ButtonBorder>Quero saber mais</ButtonBorder>
+                </Title>
+           </SectionThree>
         </Container>
     )
 }

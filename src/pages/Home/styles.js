@@ -27,6 +27,11 @@ z-index: 3;
 gap: 1rem;
 width: 43.4rem;
 justify-content: center;
+
+> h1 {
+    font-size: 30px;
+
+}
 `
 
 export const ButtonBorder = styled.a`
@@ -76,8 +81,25 @@ color: ${({ theme }) => theme.COLORS.TEXT_COLOR_LIGHT};
     left: 50%;
 bottom:0;
 top: -30%;
-
-
 }
 
+`
+
+// seção 3
+
+export const SectionThree = styled.section`
+display: flex;
+justify-content: center;
+gap: 15rem;
+margin: 10.8rem auto;
+> div {
+    width: 60rem;
+    
+    > a {
+    background-color: ${({ theme }) => theme.COLORS.LIGHT_BROWN};
+    border: none;
+    color: ${({ theme }) => theme.COLORS.TEXT_COLOR_LIGHT};;
+    font-weight: 900;
+    }
+}
 `
