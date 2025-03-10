@@ -50,11 +50,11 @@ export default createGlobalStyle`
   }
   
   ::-webkit-scrollbar-track {
-    background-color: transparent;
+    background-color: none;
   }
   
   ::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background-color:${({theme}) => theme.COLORS.BROWN};
+    background-color:${({theme}) => theme.COLORS.LIGHT_BROWN};
   }
 `;
