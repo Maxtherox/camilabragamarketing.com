@@ -30,7 +30,6 @@ justify-content: center;
 
 > h1 {
     font-size: 30px;
-
 }
 `
 
@@ -100,6 +99,62 @@ margin: 10.8rem auto;
     border: none;
     color: ${({ theme }) => theme.COLORS.TEXT_COLOR_LIGHT};;
     font-weight: 900;
+    }
+}
+`
+
+export const SectionFour = styled.footer`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 45.7rem;
+background-color: ${({ theme }) => theme.COLORS.LIGHT_BROWN};
+position: relative;
+
+> div {
+    width: 15rem;
+    height: 15rem;
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_LIGHT};
+    position: absolute;
+    transform: translateX(-50%);
+    rotate: 45deg;
+    left: 50%;
+bottom:0;
+top: -5.6%;
+
+}
+
+> h4{
+    color: ${({ theme }) => theme.COLORS.TEXT_COLOR_LIGHT};
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    width: 60rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+> a {
+    color: ${({ theme }) => theme.COLORS.TEXT_COLOR_LIGHT};
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+> p {
+    color: ${({ theme }) => theme.COLORS.TEXT_COLOR_LIGHT};
+font-family: 'Poppins', sans-serif;
+    transform: translateY(9rem);
+    font-size: 14px;
+    font-weight: 300;
+
+    > a {
+        color: ${({ theme }) => theme.COLORS.TEXT_COLOR_LIGHT};
     }
 }
 `
