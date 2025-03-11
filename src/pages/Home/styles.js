@@ -62,11 +62,11 @@ margin-left: 10rem;
 
     @media (max-width: ${DEVICE_BREAKPOINTS.XX}) {
 
-        width: 600px;
+
     }
 
     @media (max-width: ${DEVICE_BREAKPOINTS.XL}) {
-        width: 500px;
+
     }
 
     @media (max-width: ${DEVICE_BREAKPOINTS.LG}) {
