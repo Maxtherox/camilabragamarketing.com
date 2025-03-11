@@ -25,8 +25,8 @@ margin-left: 10rem;
 @media (max-width: ${DEVICE_BREAKPOINTS.LG}) {
     justify-content: center;
     margin-left: 0;
-    margin-top: 20.6rem;
-    margin-bottom: 20.6rem;
+    margin-top: 15.6rem;
+    margin-bottom: 15.6rem;
     align-items: center;
  }
 

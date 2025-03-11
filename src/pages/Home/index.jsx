@@ -1,13 +1,17 @@
 import { Container, SectionOne, Branding, Title, ButtonBorder, SectionTwo, SectionThree, SectionFour } from "./styles";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import imgOne from "../../assets/img1.png"
 import imgThree from "../../assets/img2.png"
 import imgTwo from "../../assets/Vector.png"
+
+AOS.init();
 
 export function Home() {
     return (
         <Container>
             <SectionOne>
-                <Title>
+                <Title data-aos="fade-right" data-aos-duration="500">
                     <Branding>
                         <h2>Camilla Braga</h2>
                         <span>Social media</span>
@@ -20,11 +24,11 @@ export function Home() {
                     </p>
                     <ButtonBorder>Quero saber mais</ButtonBorder>
                 </Title>
-                <img src={imgOne} />
+                <img src={imgOne} data-aos="fade-left" data-aos-duration="500"/>
             </SectionOne>
 
-            <SectionTwo>
-                <Title>
+            <SectionTwo >
+                <Title data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <h2>
                         Criação, Estratégia e Gestão de Redes Sociais
                     </h2>
@@ -32,10 +36,10 @@ export function Home() {
                         Serviços completos para redes sociais, incluindo: Organização e otimização do perfil, criação de conteúdos estratégicos
                         para engajamento e vendas, análise de desempenho e ajustes para melhores resultados.
                     </p>
-                    <ButtonBorder>Saiba mais</ButtonBorder>
+                    <ButtonBorder >Saiba mais</ButtonBorder>
                 </Title>
                 <img src={imgTwo} />
-                <Title>
+                <Title data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
                     <h2>
                         Videomake, Fotos e Storytelling
                     </h2>
@@ -47,16 +51,16 @@ export function Home() {
                 </Title>
             </SectionTwo>
             <SectionThree>
-                <img src={imgThree} />
+                <img src={imgThree} data-aos="zoom-in" data-aos-anchor-placement="top-center" />
                 <Title>
-                    <h2>
+                    <h2 data-aos="fade-right" data-aos-anchor-placement="top-center" > 
                         Videomake, Fotos e Storytelling
                     </h2>
-                    <p>
+                    <p data-aos="fade-right" data-aos-anchor-placement="top-center" >
                         Conteúdos visuais e narrativas envolventes para destacar sua marca. Perfeito para quem busca vídeos criativos que aumentam o
                         engajamento,Storytelling que conecta com a audiência, fotos profissionais que valorizam sua identidade visual.
                     </p>
-                    <ButtonBorder>Quero saber mais</ButtonBorder>
+                    <ButtonBorder data-aos="fade-right" data-aos-anchor-placement="top-center">Quero saber mais</ButtonBorder>
                 </Title>
             </SectionThree>
             <SectionFour>
