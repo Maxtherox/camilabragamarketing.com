@@ -13,6 +13,7 @@ flex-direction: row;
 justify-content: space-between;
 margin-left: 20rem;
 z-index: 3;
+height: 100vh;
 
 @media (max-width: ${DEVICE_BREAKPOINTS.XX}) {
 margin-left: 15rem;
@@ -26,14 +27,14 @@ margin-left: 10rem;
 @media (max-width: ${DEVICE_BREAKPOINTS.LG}) {
     justify-content: center;
     margin-left: 0;
-    margin-top: 15.6rem;
-    margin-bottom: 15.6rem;
+
+
     align-items: center;
  }
 
  @media (max-width: ${DEVICE_BREAKPOINTS.SM}) {
-    margin-top: 16.6rem;
-    margin-bottom: 15.6rem;
+
+
 }
 
 > div {
@@ -55,9 +56,9 @@ margin-left: 10rem;
 }
 
 > img {
-    margin-top: 4.6rem;
-    margin-bottom: 4.6rem;
+
     z-index: 3;
+
 
     @media (max-width: ${DEVICE_BREAKPOINTS.XX}) {
 
@@ -144,6 +145,7 @@ width: 100%;
 height: 67rem;
 background-color: ${({ theme }) => theme.COLORS.LIGHT_BROWN};
 color: ${({ theme }) => theme.COLORS.TEXT_COLOR_LIGHT};
+margin-top: 4.6rem;
 
 @media (max-width: ${DEVICE_BREAKPOINTS.LG}) {
 flex-direction: column;
